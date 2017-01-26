@@ -1,0 +1,170 @@
+body{
+     width: 810px;
+}
+
+#ninja{
+     display: block;
+     margin-left: 25px;
+     height: 98px;
+     width: 70px;
+}
+
+#globe{
+     display: inline-block;
+     margin: 0px;
+     height: 100px;
+     width: 100px;
+     position: relative;
+     top: 26px;
+}
+
+#triForce{
+     height: 100px;
+     width: 110px;
+}
+
+.redText{
+     color: #d9241d;
+}
+
+.blueText{
+     color: #22659e;
+}
+
+.cyanText{
+     color: #0a9bb1;
+}
+
+#webTitle{
+     display: inline-block;
+     font-size: 40px;
+     margin: 0px;
+}
+
+#mainHeader{
+     background-image: linear-gradient(#24669f, #4f81ac, #24669f);
+     margin-bottom: 0px;
+     padding: 10px 15px 10px 20px;
+     color: white;
+     margin: 0px;
+}
+
+#wrapper{
+     display: inline-block;
+     background-image: linear-gradient(to top, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #e4e4e4);
+     margin: 0px;
+     width: 650px;
+}
+
+#leftColumn{
+     display: inline-block;
+     height: 688px;
+     width: 160px;
+     background-image: linear-gradient(to top, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #e4e4e4);
+     position: relative;
+     bottom: 210px;
+}
+
+#videoB{
+     display: block;
+     color: white;
+     background-image: linear-gradient(to bottom, #6398c3, #24679f);
+     border: none;
+     border-radius: 5px;
+     box-shadow: 2px 2px 2px -1px grey;
+     font-size: 12px;
+     margin: 3px;
+     height: 28px;
+     width: 155px;
+}
+
+#resourceB{
+     display: block;
+     color: white;
+     background-image: linear-gradient(to bottom, #eaae57, #ef7300);
+     border: none;
+     border-radius: 5px;
+     box-shadow: 2px 2px 2px  -1px grey;
+     font-size: 12px;
+     margin: 3px;
+     margin-bottom: 20px;
+     height: 28px;
+     width: 155px;
+}
+
+#line1{
+     display: block;
+     height: 1px;
+     background-color: black;
+}
+
+#adSpace{
+     text-align: center;
+     font-size: 16px;
+     color: white;
+     padding: 14px;
+     margin-top: 20px;
+     background: url(images/ad_background.png);
+     height: 210px;
+}
+
+#learnB{
+     margin-top: 10px;
+     color: white;
+     font-size: 12px;
+     border: none;
+     border-radius: 5px;
+     background-image: linear-gradient(to bottom, #78d0df, #00c0df);
+     height: 24px;
+     width: 122px;
+}
+
+#buttonArrows{
+     font-size: 8px;
+}
+
+#tinyHome{
+     display: inline-block;
+     vertical-align: top;
+     margin-top: 8px;
+     height: 15px;
+     width: 15px;
+}
+
+#tinyPhone{
+     display: inline-block;
+     margin-top: 10px;
+     margin-left: 410px;
+     height: 36px;
+     width: 36px;
+}
+
+#phoneNumber{
+     font-size: 24px;
+     font-weight: bold;
+     color: #00c0df;
+}
+
+#line2{
+     background-color: black;
+     height: 1px;
+}
+
+#queryImage{
+     margin: 5px;
+     margin-left: 190px;
+     height: 90px;
+     width: 240px;
+}
+
+#theBigBox{
+     border: 5px solid #0085e0;
+     border-bottom: none;
+     padding: 12px;
+     padding-right: 0px;
+     margin-top: 20px;
+}
+
+.inTheBox{
+     display: inline-block;
+}
