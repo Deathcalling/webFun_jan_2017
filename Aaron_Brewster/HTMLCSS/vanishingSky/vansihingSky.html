@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+     <head>
+
+          <meta charset="utf-8">
+          <title>Vanishing Puss (in boots!)</title>
+          <link rel="stylesheet" href="vanishingSky.css">
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+          <script type="text/javascript">
+               $(document).ready(function() {
+
+                    $("img.fade").click(function() {
+                         $(this).fadeOut();
+                    });
+
+                    $("button.restore").click(function() {
+                         $("img.fade").fadeIn();
+                    });
+
+               });
+
+          </script>
+
+     </head>
+
+     <body>
+
+          <img src="sky.jpg" alt="A stealthy car!!!" class="fade">
+
+          <img src="sky.jpg" alt="A stealthy car!!!" class="fade">
+
+          <img src="sky.jpg" alt="A stealthy car!!!" class="fade">
+
+          <img src="sky.jpg" alt="A stealthy car!!!" class="fade">
+
+          <div class=""></div>
+
+          <img src="sky.jpg" alt="A stealthy car!!!" class="fade">
+
+          <img src="sky.jpg" alt="A stealthy car!!!" class="fade">
+
+          <img src="sky.jpg" alt="A stealthy car!!!" class="fade">
+
+          <img src="sky.jpg" alt="A stealthy car!!!" class="fade">
+
+          <button type="button" name="restore" class="restore">Restore!</button>
+
+     </body>
+
+</html>

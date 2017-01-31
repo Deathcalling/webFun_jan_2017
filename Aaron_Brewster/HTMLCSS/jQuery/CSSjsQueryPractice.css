@@ -1,0 +1,12 @@
+.purple {
+     color: purple;
+}
+
+.horiLines {
+     height: 2px;
+     background-color: silver;
+}
+
+.inline {
+     display: inline-block;
+}

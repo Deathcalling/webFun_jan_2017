@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+     <head>
+          <meta charset="utf-8">
+          <title>jQuery</title>
+          <link rel="stylesheet" href="CSSjsQueryPractice.css">
+          <script type="text/javascript" src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+          <script type="text/javascript">
+               $(document).ready(function() {
+
+               $(".addClass button").click(function() {
+                         $(".addClass p").addClass("purple");
+                    });
+
+                    $(".slideToggle button").click(function() {
+                         $(".slideToggle img").slideToggle();
+                    });
+
+                    $(".append button").click(function() {
+                         $(".append p").append("This message has been appended.");
+                    });
+
+                    $(".click button").click(function() {
+                         $(".click p").text("testing");
+                    });
+
+                    $(".fadeOut button").click(function() {
+                         $(".fadeOut p").fadeOut();
+                    });
+
+                    $(".fadeIn button").click(function() {
+                         $(".fadeOut p").fadeIn();
+                    });
+
+               });
+
+          </script>
+
+     </head>
+
+     <body>
+          <div class="addClass">
+
+               <h2>AddClass</h2>
+
+               <button type="submit" name="AddClass">AddClass</button>
+
+               <p class="inline">Click the button to add class 'purple' to this paragraph.</p>
+
+               <div class="horiLines"></div>
+
+          </div>
+
+          <div class="slideToggle">
+
+               <h2>Slidetoggle</h2>
+
+               <button type="button" name="Slidetoggle">Slidetoggle</button>
+
+               <p class="inline">Click the button to slidetoggle an image on and off the screen.</p>
+
+               <img src="sky.jpg" alt="A picture of a car">
+
+               <div class="horiLines"></div>
+
+          </div>
+
+          <div class="append">
+
+               <h2>Append</h2>
+
+               <button type="button" name="Append">Append</button>
+
+               <p class="inline">Click the button to append this paragraph.</p>
+
+               <div class="horiLines"></div>
+
+          </div>
+
+          <div class="click">
+
+               <h2>Click</h2>
+
+               <button type="button" name="Click">Click</button>
+
+               <p class="inline">Click the button to recieve a special message!</p>
+
+               <div class="horiLines"></div>
+
+          </div>
+
+          <div class="fadeOut">
+
+               <h2>Fade Out</h2>
+
+               <button type="button" name="fadeOut">Fade</button>
+
+               <p class="inline">Click the button to make this dissappear!</p>
+
+               <div class="horiLines"></div>
+
+          </div>
+
+          <div class="fadeIn">
+
+               <h2>Fade In</h2>
+
+               <button type="button" name="fadeIn">Fade</button>
+
+               <p class="inline">Click this button to make the previous paragraph re-appear!</p>
+
+               <div class="horiLines"></div>
+
+          </div>
+
+     </body>
+
+</html>

@@ -1,0 +1,11 @@
+.fade {
+     display: inline-block;
+     height: 200px;
+     width: 260px;
+}
+
+.restore {
+     display: block;
+     height: 120px;
+     width: 200px;
+}
