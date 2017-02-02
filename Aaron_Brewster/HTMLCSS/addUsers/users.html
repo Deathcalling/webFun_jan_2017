@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+     <head>
+
+          <meta charset="utf-8">
+          <title>User Input</title>
+          <link rel="stylesheet" href="users.css">
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+          <script type="text/javascript">
+
+               $(document).ready(function() {
+
+                    $('form').on('submit', function (e) {
+                         e.preventDefault();
+                         var firstName = $('form').find('input[name="firstName"]').val();
+                         var lastName = $('form').find('input[name="lastName"]').val();
+                         var email = $('form').find('input[name="email"]').val();
+                         var contact = $('form').find('input[name="contact"]').val();
+                         $('table').append('<tr><td>' + firstName + '</td><td>' + lastName + '</td><td>' + email + '</td><td>' + contact + '</td></tr>');
+                    });
+
+               });
+
+          </script>
+
+     </head>
+
+     <body>
+
+          <table id="table">
+
+               <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email Address</th>
+                    <th>Contact#</th>
+               </tr>
+
+          </table>
+
+          <h1 id="header">Add User</h1>
+
+          <form class="submit" action="index.html" method="post">
+
+               <p class="p">First Name:</p>
+               <input type="text" name="firstName" class="input"><br>
+               <p class="p">Last Name:</p>
+               <input type="text" name="lastName" class="input"><br>
+               <p class="p">Email Address:</p>
+               <input type="email" name="email" class="input"><br>
+               <p class="p">Contact #:</p>
+               <input type="text" name="contact" class="input"><br>
+               <button type="submit" id="button" name="submit">Submit</button>
+
+          </form>
+
+     </body>
+
+</html>

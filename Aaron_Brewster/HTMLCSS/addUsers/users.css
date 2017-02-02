@@ -1,0 +1,37 @@
+
+
+#table {
+     width: 500px;
+     margin: 50px;
+     margin-bottom: 80px;
+
+}
+
+#header {
+     margin: 20px;
+     border-bottom: 2px solid cyan;
+     width: 500px;
+}
+
+.submit {
+     font-size: 18px;
+     width: 500px;
+     text-align: right;
+}
+
+.input {
+     font-size: 18px;
+     margin: 10px;
+     height: 40px;
+     width: 240px;
+}
+
+.p {
+     display: inline-block;
+}
+ #button {
+      font-size: 16px;
+      padding: 10px;
+      margin: 10px;
+      width: 100px;
+}
